@@ -23,7 +23,7 @@ time, mark, audio, video {
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #32435b;
+  background-image: url('images/gradient.png'); 
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }

@@ -1,0 +1,14 @@
+h4 {color : red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.description {
+    color: green;
+    font-style: italic;
+}
+img {
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  } 
