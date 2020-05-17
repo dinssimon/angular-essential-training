@@ -1,0 +1,70 @@
+nav {
+float: left;
+width: 10%;
+height: 300px;
+padding: 20px;
+align-self: left;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 110px;
+}
+li{
+    padding: 2px;
+}
+li div {
+display: block;
+color: #000;
+padding: 8px 16px;
+text-decoration: none;
+border-radius: 10px;
+background-color:green
+}
+
+/* Change the link color on hover */
+li div:hover {
+background-color: #555;
+color: white; 
+
+}
+article {
+float: left;
+padding: 20px;
+width: 90%;
+height: 300px;
+border: black;
+}
+
+section:after {
+content: "";
+display: table;
+clear: both;
+}
+@media (max-width: 600px) {
+
+nav,
+article {
+width: 100%;
+height: auto;
+}
+}
+* {
+box-sizing: border-box;
+}
+
+table, th, td {
+border-collapse: collapse;
+}
+th, td {
+padding: 5px;
+}
+th {
+text-align: left;
+}
+.Details{
+    font-weight: bold;
+    
+}

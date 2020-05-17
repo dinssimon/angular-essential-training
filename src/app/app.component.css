@@ -1,15 +1,5 @@
-h4 {color : red;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+footer {
+    background-color: #777;
+    padding: 10px;
+    color: white;
 }
-.description {
-    color: green;
-    font-style: italic;
-}
-img {
-    display: block;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-  } 
-  

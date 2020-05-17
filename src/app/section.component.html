@@ -1,0 +1,102 @@
+<section>
+    <nav>
+        <ul>
+            <li>
+                <div (click)="personalOnClick()">Personal</div>
+            </li>
+            <li>
+                <div (click)="educationOnClick()">Education</div>
+            </li>
+            <li>
+                <div (click)="expOnClick()">Experience</div>
+            </li>
+        </ul>
+    </nav>
+    <article>
+        <ng-template [ngIf]="isMarquee">
+            <marquee direction="up" height="90%" scrollamount="3">Welcome to my web page. Use navigation to see the
+                details...........</marquee>
+        </ng-template>
+        <ng-template [ngIf]="isPersonal">
+            <table style="width:100%">
+                <tr>
+                    <th class="Details">Name</th>
+                    <th>: Dins Simon</th>
+                </tr>
+                <tr>
+                    <td class="Details">Address</td>
+                    <td>
+                        <p>: Ayathupadathu [H]</p>
+                        <p> Koduvely P O,685582</p>
+                        <p> Thodupuzha,Idukki</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Details">DOB</td>
+                    <td>: 06/09/1992</td>
+                </tr>
+                <tr>
+                    <td class="Details">Sex</td>
+                    <td>: Male</td>
+                </tr>
+                <tr>
+                    <td class="Details">Marital Status</td>
+                    <td>: Married</td>
+                </tr>
+                <tr>
+                    <td class="Details"> Phone</td>
+                    <td>: +919544757296</td>
+                </tr>
+                <tr>
+                    <td class="Details">Email</td>
+                    <td>: dinssimon@gmail.com</td>
+                </tr>
+            </table>
+        </ng-template>
+        <ng-template [ngIf]="isEducation">
+            <table style="width:100%">
+                <tr>
+                    <td class="Details">Course</td>
+                    <td class="Details">Board/University</td>
+                    <td class="Details">Percentage</td>
+                    <td class="Details">Year of Passing</td>
+                </tr>
+                <tr>
+                    <td>B.Tech</td>
+                    <td>MG University</td>
+                    <td>85</td>
+                    <td>2014</td>
+                </tr>
+                <tr>
+                    <td>Higher Secondary</td>
+                    <td>BHSC Kerala</td>
+                    <td>93</td>
+                    <td>2010</td>
+                </tr>
+                <tr>
+                    <td>SSLC</td>
+                    <td>SSLC Kerala</td>
+                    <td>95</td>
+                    <td>2008</td>
+                </tr>
+            </table>
+        </ng-template>
+        <ng-template [ngIf]="isExp">
+            <table style="width:100%">
+                <tr>
+                    <td class="Details">Firm Name</td>
+                    <td class="Details">Years</td>
+                </tr>
+                <tr>
+                    <td>1. IBS SoftwareServices PVT.LTD</td>
+                    <td>2014-2018</td>
+                </tr>
+                <tr>
+                    <td>2. Gadgeon SoftwareServices PVT.LTD</td>
+                    <td>2019-present</td>
+                </tr>
+            </table>
+        </ng-template>
+
+    </article>
+</section>
